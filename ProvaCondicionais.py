@@ -1,6 +1,7 @@
 
 limite_velocidade = 80
-velocidade = input(int("Qual a sua velocidade? "))
+
+velocidade = float(input("Qual a sua velocidade? "))
 
 if velocidade > limite_velocidade:
 
@@ -12,3 +13,4 @@ if velocidade > limite_velocidade:
 
 else:
     print("Velocidade dentro do limite permitido.")
+
